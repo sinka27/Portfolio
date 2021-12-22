@@ -86,14 +86,30 @@ body figure img {
   text-align: left;
   color: #13293d;
 }
+
+/* Section fo displaying Main part of the webpage */
 .card {
   padding: 10px;
-  flex: 0 0 400px;
+  display: flex;
 }
 
-.card aside h2 {
-  border-right: 5px solid red;
-  display: inline;
+.sideColumnRightBorder {
+  font-size: 70px;
+  flex: 0 1 300px;
+  text-align: right;
+  color: #485874;
+  padding-right: 15px;
+  border-right: 4px solid #485874;
+}
+}
+
+.mainColumnNoBorder {
+  flex: 1;
+  padding: 10px;
+  font-size: 25px;
+  color: #13293d;
+}
+.mainColumnNoBorder a:hover {
   color: #e06016;
 }
 
