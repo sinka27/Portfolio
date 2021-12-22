@@ -37,11 +37,11 @@ Advantages of Portfolio:
 
 
 ## Links
-* Github source code: 
-* Github deployed page: 
+* Github source code: https://github.com/sinka27/Portfolio
+* Github deployed page: https://sinka27.github.io/Portfolio/
 
 ## Screenshot
-![](./assets/images/sinka27.github.io_code-refactor_.png)
+![](./assets/images/Portfolio.png)
 
 ## Credits
 1. Parul Raj
