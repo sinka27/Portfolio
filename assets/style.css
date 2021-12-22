@@ -101,6 +101,13 @@ body figure img {
   padding-right: 15px;
   border-right: 4px solid #485874;
 }
+
+.sideColumnNoBorder {
+  font-size: 70px;
+  flex: 0 1 300px;
+  text-align: right;
+  color: #485874;
+  padding-right: 15px;
 }
 
 .mainColumnNoBorder {
@@ -112,19 +119,63 @@ body figure img {
 .mainColumnNoBorder a:hover {
   color: #e06016;
 }
-
-.card p {
-  text-align: center;
+.mainColumnLeftBorder {
+  flex: 1;
+  padding: 10px;
+  border-left: 4px solid #485874;
 }
 
-.card img {
-  width: 100%;
+.mainColumnLeftBorder img {
+  border: 5px solid #9ecacd;
+}
+
+/* For images of the deployed projects */
+.projects {
+  flex: 4;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  margin: 7px;
+}
+
+/* Overriding width property for first project image */
+#firstImage {
+  width: 1210px !important;
+}
+
+.container img {
+  width: 600px;
+  height: 600px;
+}
+
+/* Bottom left text on all the project related images */
+.bottom-left {
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  bottom: 20px;
+  left: 0px;
+  background-color: #9ecacd;
+  padding: 10px;
+  text-align: left;
 }
 
 /* 
-  It defines in which direction the container wants to stack the flex items
-  We are telling the main body and navbar to stack vertically in a column
-  */
+For description of technologies used in the projects */
+.description {
+  font-size: 15px;
+  font-weight: normal;
+}
 @media screen and (max-width: 768px) {
   main,
  nav{
