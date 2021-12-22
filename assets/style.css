@@ -176,9 +176,25 @@ For description of technologies used in the projects */
   font-size: 15px;
   font-weight: normal;
 }
+
+.mainColumnNoBorder ul {
+  list-style: none;
+  font-size: 30px;
+}
+
+.mainColumnNoBorder ul li {
+  padding: 20px 100px;
+  display: inline-block;
+}
+
+.mainColumnNoBorder ul li a {
+  color: #485874;
+}
+
+/* Adjust screen to different resolutions */
 @media screen and (max-width: 768px) {
   main,
- nav{
+  nav {
     flex-direction: column;
   }
 }
